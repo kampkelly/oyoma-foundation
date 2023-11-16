@@ -1174,7 +1174,7 @@ const Home = (props) => {
           }
           .home-get-started {
             width: 100%;
-            height: 2362px;
+            height: auto;
             display: flex;
             align-items: center;
             flex-direction: column;
