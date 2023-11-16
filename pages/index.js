@@ -12,36 +12,30 @@ const Home = (props) => {
         <div data-role="Header" className="home-navbar-container">
           <div className="home-navbar">
             <div className="home-left-side">
-              <img
-                alt="image"
-                src="https://play.teleporthq.io/static/svg/default-img.svg"
-                className="home-image"
-              />
+              <div className="home-container1">
+                <img
+                  alt="image"
+                  src="/ogheneyoma%20adjekpiyede%20foundation%20logo%20%20icon%20png-200h.png"
+                  className="home-image"
+                />
+              </div>
               <div data-role="BurgerMenu" className="home-burger-menu">
                 <svg viewBox="0 0 1024 1024" className="home-icon">
                   <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
                 </svg>
               </div>
               <div className="home-links-container">
-                <a href="#resources" className="home-link Anchor">
-                  Resources
-                </a>
-                <a href="#inspiration" className="home-link01 Anchor">
-                  Inspiration
-                </a>
-                <a href="#process" className="home-link02 Anchor">
-                  Process
-                </a>
-                <a href="#ourstory" className="home-link03 Anchor">
+                <span className="home-link Anchor">Resources</span>
+                <a href="#ourstory" className="home-link01 Anchor">
                   Our story
                 </a>
               </div>
             </div>
             <div className="home-right-side">
-              <button className="home-cta-btn Anchor button">START NOW</button>
+              <span className="home-text">Ogheneyoma Foundation</span>
             </div>
             <div data-role="MobileMenu" className="home-mobile-menu">
-              <div className="home-container1">
+              <div className="home-container2">
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
@@ -54,54 +48,353 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-links-container1">
-                <a href="#resources" className="home-link04 Anchor">
-                  Resources
-                </a>
-                <a href="#inspiration" className="home-link05 Anchor">
+                <span className="home-link02 Anchor">Resources</span>
+                <a href="#inspiration" className="home-link03 Anchor">
                   Inspiration
                 </a>
-                <a href="#process" className="home-link06 Anchor">
+                <a href="#process" className="home-link04 Anchor">
                   Process
                 </a>
-                <a href="#ourstory" className="home-link07 Anchor">
+                <a href="#ourstory" className="home-link05 Anchor">
                   Our story
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div id="resources" className="home-hero">
-          <div className="home-content-container">
-            <div className="home-hero-text">
-              <h1 className="home-heading Section-Heading">
-                Tell the whole world about your ideea
+        <div className="home-section-1-container">
+          <div className="home-intro-container">
+            <div className="home-container3">
+              <div className="home-container4"></div>
+              <h1 className="home-text001">
+                <span>Welcome To Ogheneyoma Adekpiyede Foundation.</span>
+                <br></br>
+                <span>Empower Dreams.</span>
+                <br></br>
               </h1>
-              <span className="home-text Section-Text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
-                ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-                Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per
-                inceptos himenaeos.
+            </div>
+            <div className="home-container5">
+              <span className="home-text006">
+                <span className="home-text007">
+                  The foundation&apos;s mission is to empower individuals
+                  through education by offering scholarships and financial
+                  support.
+                </span>
+                <br className="home-text008"></br>
+                <br></br>
               </span>
-              <button className="home-cta-btn1 Anchor button">START NOW</button>
+              <button type="button" className="home-button button">
+                Download Application Form
+              </button>
             </div>
           </div>
-          <div className="home-container2">
-            <span className="home-text01">My Website</span>
-            <div className="home-container3">
-              <img
-                src="https://images.unsplash.com/photo-1699009437744-aeaa28006c16?ixid=M3w5MTMyMXwwfDF8YWxsfDE2N3x8fHx8fDJ8fDE2OTk3NDU4NTR8&amp;ixlib=rb-4.0.3&amp;w=800"
-                alt="image"
-                className="home-image2"
-              />
+          <div className="home-mission-container">
+            <div className="home-container6">
+              <h1>Mission</h1>
+              <span className="home-text011">
+                To contribute to societal good and prosperity in Nigeria through
+                assistance in the advancement of education to achieve excellence
+                and high moral standards at all levels in the community with
+                particular emphasis on young people from deprived backgrounds.
+              </span>
             </div>
+          </div>
+        </div>
+        <div className="home-objectives">
+          <h1>Objectives</h1>
+          <div className="home-container7">
+            <span className="home-text013">
+              The Adjekpiyede Foundation will support projects which:
+            </span>
+            <ul className="list">
+              <li className="home-li list-item">
+                <span className="home-text014">
+                  <span>
+                    Improve the access for all students to quality preschool,
+                    primary, secondary and tertiary
+                  </span>
+                  <br></br>
+                  <span>
+                    education with a particular emphasis on indigenes of
+                    Agadama-Uwheru community in Delta
+                  </span>
+                  <br></br>
+                  <span>State.</span>
+                </span>
+              </li>
+              <li className="home-li01 list-item">
+                <span className="home-text020">
+                  Build self-esteem and high morals in children, youth and
+                  adults
+                </span>
+              </li>
+              <li className="home-li02 list-item">
+                <span className="home-text021">
+                  <span>
+                    Provide low income adults the opportunity to obtain further
+                    education and credentials to
+                  </span>
+                  <br></br>
+                  <span>improve their lives</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="home-get-started">
+          <h1>Get started</h1>
+          <div className="home-container8">
+            <span className="home-text026">
+              <span>
+                Are you a dedicated student from Agadama community with dreams
+                of higher education? The
+              </span>
+              <br></br>
+              <span>
+                Ogheneyoma Adjekpiyede Foundation is here to support your
+                aspirations!
+              </span>
+            </span>
+            <h3 className="home-text030">
+              <span className="home-text031">Objectives</span>
+              <br></br>
+            </h3>
+            <ul className="home-ul1 list">
+              <li className="home-li03 list-item">
+                <span className="home-text033">
+                  Improve access to quality education for all students.
+                </span>
+              </li>
+              <li className="home-li04 list-item">
+                <span className="home-text034">
+                  Build self-esteem and high moral standards in children, youth,
+                  and adults.
+                </span>
+              </li>
+            </ul>
+            <h3 className="home-text035">
+              <span>ELIGIBILITY CRITERIA</span>
+              <br></br>
+            </h3>
+            <span className="home-text038">Applicants must:</span>
+            <ul className="home-eligibility-criteria-list list">
+              <li className="home-li05 list-item">
+                <span className="home-text039">
+                  Be indigenes of Agadama community in Uwheru, Ughelli-North LGA
+                  of Delta State.
+                </span>
+              </li>
+              <li className="home-li06 list-item">
+                <span className="home-text040">
+                  <span>
+                    Have completed primary and/or secondary school in Uwheru.
+                  </span>
+                  <br></br>
+                </span>
+              </li>
+              <li className="list-item">
+                <span className="home-text043">
+                  <span>
+                    Attained a minimum of 5 credits in WAEC/SSCE/NECO, including
+                    English Language
+                  </span>
+                  <br></br>
+                  <span>and Mathematics in no more than 2 sittings.</span>
+                </span>
+              </li>
+              <li className="list-item">
+                <span className="home-text047">
+                  Have a JAMB score of 200 or greater.
+                </span>
+              </li>
+              <li className="list-item">
+                <span className="home-text048">
+                  <span>
+                    Have gained admission in the 2023/2024 academic session to
+                    study specific courses at a
+                  </span>
+                  <br></br>
+                  <span>recognized public university.</span>
+                </span>
+              </li>
+            </ul>
+            <h3 className="home-text052">
+              <span>HOW TO APPLY</span>
+              <br></br>
+            </h3>
+            <span className="home-text055">
+              Application can be done in two ways:
+            </span>
+            <span className="home-text056">A) Via your School</span>
+            <ul className="home-how-to-apply-list-a list">
+              <li className="list-item">
+                <span className="home-text057">
+                  Obtain and complete the application form from your school
+                  principal.
+                </span>
+              </li>
+              <li className="list-item">
+                <span className="home-text058">
+                  Attach the following documents:
+                </span>
+                <ul className="home-ul2 list">
+                  <li className="list-item">
+                    <span className="home-text059">WAEC/NECO result</span>
+                  </li>
+                  <li className="list-item">
+                    <span className="home-text060">JAMB result</span>
+                  </li>
+                  <li className="list-item">
+                    <span className="home-text061">
+                      University or JAMB Admission Letter
+                    </span>
+                  </li>
+                  <li className="list-item">
+                    <span className="home-text062">
+                      Current passport photograph
+                    </span>
+                  </li>
+                  <li className="list-item">
+                    <span className="home-text063">
+                      <span>
+                        Guarantor’s written consent of good conduct of the
+                        applicant from any of the
+                      </span>
+                      <br></br>
+                      <span>
+                        following persons from the applicant’s community/clan:
+                      </span>
+                    </span>
+                    <ul className="home-ul3 list">
+                      <li className="list-item">
+                        <span className="home-text067">
+                          Chairman of the LGA.
+                        </span>
+                      </li>
+                      <li className="list-item">
+                        <span className="home-text068">
+                          First class traditional ruler
+                        </span>
+                      </li>
+                      <li className="list-item">
+                        <span className="home-text069">Reputable Clergy</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li className="list-item">
+                <span className="home-text070">
+                  Submit the completed form and documents to your school
+                  principal.
+                </span>
+              </li>
+            </ul>
+            <span className="home-text071">B) Online</span>
+            <ul className="home-how-to-apply-list-b list">
+              <li className="list-item">
+                <span className="home-text072">
+                  Download the application form from TBD
+                </span>
+              </li>
+              <li className="list-item">
+                <span className="home-text073">
+                  <span>
+                    Send scanned original copies of the following documents in
+                    one email to
+                  </span>
+                  <br></br>
+                  <span>
+                    ogheneyomaadjekpiyedefdn@gmail.com with the subject 2023
+                    University Scholarship
+                  </span>
+                  <br></br>
+                  <span>Scheme:</span>
+                </span>
+                <ul className="home-ul4 list">
+                  <li className="list-item">
+                    <span className="home-text079">WAEC/NECO result</span>
+                  </li>
+                  <li className="list-item">
+                    <span className="home-text080">JAMB result</span>
+                  </li>
+                  <li className="list-item">
+                    <span className="home-text081">
+                      University or JAMB Admission Letter
+                    </span>
+                  </li>
+                  <li className="list-item">
+                    <span className="home-text082">
+                      Current passport photograph
+                    </span>
+                  </li>
+                  <li className="list-item">
+                    <span className="home-text083">
+                      <span>
+                        Guarantor’s written consent of good conduct of the
+                        applicant from any of the
+                      </span>
+                      <br></br>
+                      <span>
+                        following persons from the applicant’s community/clan:
+                      </span>
+                    </span>
+                    <ul className="home-ul5 list">
+                      <li className="list-item">
+                        <span className="home-text087">
+                          Chairman of the LGA.
+                        </span>
+                      </li>
+                      <li className="list-item">
+                        <span className="home-text088">
+                          First class traditional ruler
+                        </span>
+                      </li>
+                      <li className="list-item">
+                        <span className="home-text089">Reputable Clergy</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h3 className="home-text090">
+              <span>DEADLINE</span>
+              <br></br>
+            </h3>
+            <span className="home-text093">
+              Application Deadline: November 30th, 2023
+            </span>
+            <span className="home-text094">For more information:</span>
+            <ul className="home-more-information-list list">
+              <li className="list-item">
+                <span className="home-text095">
+                  Contact your school Principal
+                </span>
+              </li>
+              <li className="home-li32 list-item">
+                <span className="home-text096">Send an email to</span>
+                <a
+                  href="mailto:ogheneyomaadjekpiyedefdn@gmail.com?subject=Information About Ogheneyoma Adjekpiyede Foundation"
+                  className="home-link06"
+                >
+                  ogheneyomaadjekpiyedefdn@gmail.com
+                </a>
+              </li>
+            </ul>
+            <button type="button" className="home-download-form-button button">
+              <span>
+                <span className="home-text098">
+                  Download Application Form Now
+                </span>
+                <br></br>
+              </span>
+            </button>
           </div>
         </div>
         <div id="inspiration" className="home-features">
           <div className="home-heading-container">
-            <h2 className="home-text02 Section-Heading">
+            <h2 className="home-text100 Section-Heading">
               Which are the greatest things about it?
             </h2>
           </div>
@@ -114,8 +407,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container">
-                <span className="home-heading01 Card-Heading">Feature One</span>
-                <span className="home-text03 Card-Text">
+                <span className="home-heading Card-Heading">Feature One</span>
+                <span className="home-text101 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -130,8 +423,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container1">
-                <span className="home-heading02 Card-Heading">Feature Two</span>
-                <span className="home-text04 Card-Text">
+                <span className="home-heading1 Card-Heading">Feature Two</span>
+                <span className="home-text102 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -146,10 +439,10 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container2">
-                <span className="home-heading03 Card-Heading">
+                <span className="home-heading2 Card-Heading">
                   Feature Three
                 </span>
-                <span className="home-text05 Card-Text">
+                <span className="home-text103 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -164,10 +457,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container3">
-                <span className="home-heading04 Card-Heading">
-                  Feature Four
-                </span>
-                <span className="home-text06 Card-Text">
+                <span className="home-heading3 Card-Heading">Feature Four</span>
+                <span className="home-text104 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -182,10 +473,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container4">
-                <span className="home-heading05 Card-Heading">
-                  Feature Five
-                </span>
-                <span className="home-text07 Card-Text">
+                <span className="home-heading4 Card-Heading">Feature Five</span>
+                <span className="home-text105 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -200,8 +489,8 @@ const Home = (props) => {
                 </svg>
               </div>
               <div className="home-text-container5">
-                <span className="home-heading06 Card-Heading">Feature Six</span>
-                <span className="home-text08 Card-Text">
+                <span className="home-heading5 Card-Heading">Feature Six</span>
+                <span className="home-text106 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -212,18 +501,18 @@ const Home = (props) => {
         </div>
         <div id="process" className="home-services">
           <div className="home-heading-container1">
-            <h1 className="home-text09 Section-Heading">
+            <h1 className="home-text107 Section-Heading">
               More things to explore
             </h1>
-            <span className="home-text10 Section-Text">
+            <span className="home-text108 Section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
           </div>
           <div className="home-cards-container1">
             <div className="home-service-card">
-              <h3 className="home-text11 Card-Heading">Resources</h3>
-              <span className="home-text12 Card-Text">
+              <h3 className="home-text109 Card-Heading">Resources</h3>
+              <span className="home-text110 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero.
                 <span
@@ -235,8 +524,8 @@ const Home = (props) => {
               <span className="Anchor">Learn more</span>
             </div>
             <div className="home-service-card1">
-              <h3 className="home-text13 Card-Heading">Community</h3>
-              <span className="home-text14 Card-Text">
+              <h3 className="home-text111 Card-Heading">Community</h3>
+              <span className="home-text112 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero.
                 <span
@@ -248,8 +537,8 @@ const Home = (props) => {
               <span className="Anchor">Learn more</span>
             </div>
             <div className="home-service-card2">
-              <h3 className="home-text15 Card-Heading">Newsroom</h3>
-              <span className="home-text16 Card-Text">
+              <h3 className="home-text113 Card-Heading">Newsroom</h3>
+              <span className="home-text114 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero.
                 <span
@@ -265,8 +554,8 @@ const Home = (props) => {
         <div className="home-section-separator"></div>
         <div className="home-team">
           <div className="home-heading-container2">
-            <h1 className="home-text17 Section-Heading">Meet the Team</h1>
-            <span className="home-text18 Section-Text">
+            <h1 className="home-text115 Section-Heading">Meet the Team</h1>
+            <span className="home-text116 Section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
@@ -322,8 +611,8 @@ const Home = (props) => {
         <div className="home-section-separator1"></div>
         <div id="ourstory" className="home-our-story">
           <div className="home-heading-container3">
-            <h1 className="home-text19 Section-Heading">Our story</h1>
-            <span className="home-text20 Section-Text">
+            <h1 className="home-text117 Section-Heading">Our story</h1>
+            <span className="home-text118 Section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
@@ -338,12 +627,12 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <div className="home-content-container1">
-                <span className="home-heading07 Card-Heading">
+              <div className="home-content-container">
+                <span className="home-heading6 Card-Heading">
                   This text is the name of the article. Lorem ipsum dolor sit
                   metsed do eiusm od tempor.
                 </span>
-                <span className="home-text21 Card-Text">
+                <span className="home-text119 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -352,7 +641,7 @@ const Home = (props) => {
                   nulla. Class aptent taciti sociosqu ad litora torquent per
                   conubia nostra, per inceptos himenaeos.
                 </span>
-                <span className="home-text22 Card-Text">
+                <span className="home-text120 Card-Text">
                   {' '}
                   Fusce nec tellus sed augue semper porta. Mauris massa.
                   Vestibulum lacinia arcu eget nulla. Class aptent taciti
@@ -384,10 +673,10 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  className="home-image3"
+                  className="home-image2"
                 />
-                <div className="home-content-container2">
-                  <span className="home-text25 SmallCard-Heading">
+                <div className="home-content-container1">
+                  <span className="home-text123 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -415,10 +704,10 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  className="home-image4"
+                  className="home-image3"
                 />
-                <div className="home-content-container3">
-                  <span className="home-text28 SmallCard-Heading">
+                <div className="home-content-container2">
+                  <span className="home-text126 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -446,10 +735,10 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  className="home-image5"
+                  className="home-image4"
                 />
-                <div className="home-content-container4">
-                  <span className="home-text31 SmallCard-Heading">
+                <div className="home-content-container3">
+                  <span className="home-text129 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -477,10 +766,10 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="https://play.teleporthq.io/static/svg/default-img.svg"
-                  className="home-image6"
+                  className="home-image5"
                 />
-                <div className="home-content-container5">
-                  <span className="home-text34 SmallCard-Heading">
+                <div className="home-content-container4">
+                  <span className="home-text132 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -509,10 +798,10 @@ const Home = (props) => {
         </div>
         <div className="home-section-separator2"></div>
         <div className="home-get-in-touch">
-          <h2 className="home-text37 Section-Heading">Get in touch</h2>
-          <div className="home-content-container6">
+          <h2 className="home-text135 Section-Heading">Get in touch</h2>
+          <div className="home-content-container5">
             <div className="home-form-container">
-              <span className="home-heading08 BigCard-Heading">
+              <span className="home-heading7 BigCard-Heading">
                 Send us a message
               </span>
               <input
@@ -531,11 +820,11 @@ const Home = (props) => {
                 placeholder="Your Message"
                 className="home-message textarea"
               ></textarea>
-              <button className="home-cta-btn2 Anchor button">SEND</button>
+              <button className="home-cta-btn Anchor button">SEND</button>
             </div>
             <div className="home-locations-container">
               <div className="home-location-1">
-                <span className="home-heading09">London, UK</span>
+                <span className="home-heading8">London, UK</span>
                 <div className="home-adress">
                   <svg viewBox="0 0 1024 1024" className="home-icon54">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
@@ -579,7 +868,7 @@ const Home = (props) => {
               <svg viewBox="0 0 1024 1024" className="home-icon66">
                 <path d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"></path>
               </svg>
-              <span className="Anchor">Copyright, 2021</span>
+              <span className="Anchor">Copyright, 2023</span>
             </div>
           </div>
         </div>
@@ -624,6 +913,15 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
+          .home-container1 {
+            flex: 0 0 auto;
+            width: 50px;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: center;
+          }
           .home-image {
             width: 50px;
             align-self: center;
@@ -650,14 +948,6 @@ const Home = (props) => {
             text-decoration: none;
           }
           .home-link01 {
-            margin-right: var(--dl-space-space-tripleunit);
-            text-decoration: none;
-          }
-          .home-link02 {
-            margin-right: var(--dl-space-space-tripleunit);
-            text-decoration: none;
-          }
-          .home-link03 {
             text-decoration: none;
           }
           .home-right-side {
@@ -666,14 +956,12 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-cta-btn {
-            color: var(--dl-color-gray-white);
-            padding-top: var(--dl-space-space-unit);
-            padding-left: var(--dl-space-space-fiveunits);
-            border-radius: var(--dl-radius-radius-radius24);
-            padding-right: var(--dl-space-space-fiveunits);
-            padding-bottom: var(--dl-space-space-unit);
-            background-color: var(--dl-color-gray-black);
+          .home-text {
+            align-self: center;
+            font-style: normal;
+            text-align: center;
+            font-weight: 500;
+            text-transform: uppercase;
           }
           .home-mobile-menu {
             top: 0px;
@@ -688,7 +976,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: #fff;
           }
-          .home-container1 {
+          .home-container2 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -718,117 +1006,466 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .home-link02 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .home-link03 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
           .home-link04 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
           .home-link05 {
-            margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .home-link06 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .home-link07 {
-            text-decoration: none;
-          }
-          .home-hero {
+          .home-section-1-container {
+            flex: 0 0 auto;
             width: 100%;
+            height: 100vh;
             display: flex;
+            max-height: 100vh;
+            min-height: 100vh;
             align-items: center;
-            padding-top: var(--dl-space-space-tenunits);
-            margin-bottom: var(--dl-space-space-fiveunits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-tenunits);
-            background-size: cover;
-            justify-content: center;
-            background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
-            background-repeat: no-repeat;
-            background-position: center;
-          }
-          .home-content-container {
-            width: 100%;
-            height: 539px;
-            display: flex;
-            max-width: var(--dl-size-size-maxcontent);
-            margin-top: var(--dl-space-space-fiveunits);
-            align-items: center;
-            padding-top: var(--dl-space-space-tenunits);
-            padding-left: var(--dl-space-space-tripleunit);
-            margin-bottom: var(--dl-space-space-fiveunits);
-            padding-right: var(--dl-space-space-tripleunit);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-tenunits);
-            justify-content: center;
-          }
-          .home-hero-text {
-            width: 50%;
-            display: flex;
-            align-self: center;
-            align-items: center;
-            margin-left: 228px;
-            margin-right: 182px;
-            flex-direction: column;
-          }
-          .home-heading {
-            height: 59px;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
-          }
-          .home-text {
-            color: var(--dl-color-gray-700);
-            width: 100%;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
-          }
-          .home-cta-btn1 {
-            color: var(--dl-color-gray-white);
-            text-align: center;
-            padding-top: var(--dl-space-space-doubleunit);
-            padding-left: var(--dl-space-space-tenunits);
-            border-radius: 30px;
-            padding-right: var(--dl-space-space-tenunits);
-            padding-bottom: var(--dl-space-space-doubleunit);
-            background-color: var(--dl-color-gray-black);
-          }
-          .home-container2 {
-            width: 100%;
-            height: 403px;
-            display: flex;
-            position: relative;
-            align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text01 {
-            color: #2d59bd;
+          .home-intro-container {
             width: 100%;
-            align-self: flex-start;
-            margin-top: var(--dl-space-space-tripleunit);
-            text-align: center;
-            text-transform: uppercase;
-            text-decoration: underline;
+            height: 556px;
+            display: flex;
+            z-index: 100;
+            align-items: center;
+            flex-direction: column;
+            background-color: #ededed;
           }
           .home-container3 {
+            width: 67%;
+            height: 188px;
+            display: flex;
+            position: relative;
+            margin-top: var(--dl-space-space-tenunits);
+            align-items: flex-start;
+            padding-top: 0px;
+          }
+          .home-container4 {
             flex: 0 0 auto;
+            width: auto;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: auto;
+            display: flex;
+            flex-direction: column;
+          }
+          .home-text001 {
+            top: 0px;
+            right: 0px;
+            height: 170px;
+            position: absolute;
+            align-self: flex-start;
+            text-align: center;
+          }
+          .home-container5 {
+            width: 795px;
+            height: 234px;
+            display: flex;
+            flex-wrap: wrap;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+          }
+          .home-text006 {
+            align-self: center;
+            font-style: normal;
+            text-align: center;
+            font-weight: 500;
+          }
+          .home-text007 {
+            font-size: 25px;
+          }
+          .home-text008 {
+            font-size: 25px;
+          }
+          .home-button {
+            color: rgb(255, 255, 255);
+            border-style: double;
+            background-color: rgb(125, 66, 66);
+          }
+          .home-mission-container {
             width: 100%;
+            height: 443px;
+            display: flex;
+            z-index: 100;
+            align-self: center;
+            align-items: center;
+            flex-direction: column;
+          }
+          .home-container6 {
+            width: 804px;
             height: 100%;
             display: flex;
-            align-self: flex-start;
-            align-items: flex-start;
+            align-self: center;
+            align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .home-image2 {
-            width: 50%;
-            height: 50%;
+          .home-text011 {
+            font-size: 20px;
+            font-style: normal;
+            text-align: center;
+            font-weight: 600;
+          }
+          .home-objectives {
+            width: 100%;
+            height: 449px;
+            display: flex;
+            align-items: center;
+            padding-top: 0px;
+            flex-direction: column;
+          }
+          .home-container7 {
+            width: 976px;
+            height: 43px;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            padding-bottom: 0px;
+            justify-content: flex-start;
+          }
+          .home-text013 {
+            font-size: 20px;
+            align-self: flex-start;
+            font-style: normal;
+            margin-top: var(--dl-space-space-doubleunit);
+            font-weight: 600;
+          }
+          .home-li {
+            list-style-type: disc;
+            list-style-image: none;
+            list-style-position: outside;
+          }
+          .home-text014 {
+            font-size: 20px;
+            font-style: normal;
+            margin-top: 0px;
+            font-weight: 600;
+            padding-top: 0px;
+          }
+          .home-li01 {
+            list-style-type: disc;
+            list-style-image: none;
+            list-style-position: outside;
+          }
+          .home-text020 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-li02 {
+            list-style-type: disc;
+            list-style-image: none;
+            list-style-position: outside;
+          }
+          .home-text021 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-get-started {
+            width: 100%;
+            height: 2362px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-container8 {
+            width: 978px;
+            height: 1998px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-tripleunit);
+            justify-content: flex-start;
+          }
+          .home-text026 {
+            width: auto;
+            font-size: 20px;
+            align-self: flex-start;
+            font-style: normal;
+            text-align: left;
+            font-weight: 600;
+          }
+          .home-text030 {
+            font-size: 10px;
+            align-self: flex-start;
+            margin-top: var(--dl-space-space-doubleunit);
+            font-weight: 300;
+          }
+          .home-text031 {
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 300;
+          }
+          .home-ul1 {
+            margin-top: 0px;
+          }
+          .home-li03 {
+            list-style-type: disc;
+            list-style-image: none;
+            list-style-position: outside;
+          }
+          .home-text033 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-li04 {
+            list-style-type: disc;
+            list-style-image: none;
+            list-style-position: outside;
+          }
+          .home-text034 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text035 {
+            font-size: 30px;
+            align-self: flex-start;
+            font-weight: 300;
+          }
+          .home-text038 {
+            font-size: 20px;
+            align-self: flex-start;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-eligibility-criteria-list {
+            margin-top: 0px;
+            list-style-type: decimal;
+            list-style-position: outside;
+          }
+          .home-li05 {
+            list-style-type: decimal;
+            list-style-image: none;
+            list-style-position: outside;
+          }
+          .home-text039 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-li06 {
+            list-style-type: decimal;
+            list-style-image: none;
+            list-style-position: outside;
+          }
+          .home-text040 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text043 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text047 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text048 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text052 {
+            font-size: 30px;
+            align-self: flex-start;
+            font-weight: 300;
+          }
+          .home-text055 {
+            font-size: 20px;
+            align-self: flex-start;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text056 {
+            font-size: 20px;
+            align-self: flex-start;
+            font-style: normal;
+            font-weight: 700;
+          }
+          .home-how-to-apply-list-a {
+            list-style-type: decimal;
+          }
+          .home-text057 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text058 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-ul2 {
+            list-style-type: disc;
+          }
+          .home-text059 {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text060 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text061 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text062 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text063 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-ul3 {
+            list-style-type: square;
+          }
+          .home-text067 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text068 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text069 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text070 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text071 {
+            font-size: 20px;
+            align-self: flex-start;
+            font-style: normal;
+            font-weight: 700;
+          }
+          .home-how-to-apply-list-b {
+            list-style-type: decimal;
+          }
+          .home-text072 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text073 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-ul4 {
+            list-style-type: disc;
+          }
+          .home-text079 {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text080 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text081 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text082 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text083 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-ul5 {
+            list-style-type: square;
+          }
+          .home-text087 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text088 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text089 {
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text090 {
+            font-size: 30px;
+            align-self: flex-start;
+            font-weight: 300;
+          }
+          .home-text093 {
+            font-size: 20px;
+            align-self: flex-start;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text094 {
+            font-size: 20px;
+            align-self: flex-start;
+            font-style: normal;
+            margin-top: var(--dl-space-space-doubleunit);
+            font-weight: 600;
+          }
+          .home-more-information-list {
+            position: relative;
+            list-style-type: disc;
+          }
+          .home-text095 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-li32 {
+            text-align: left;
+          }
+          .home-text096 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-link06 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-download-form-button {
             align-self: center;
-            object-fit: cover;
+          }
+          .home-text098 {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
           }
           .home-features {
             width: 100%;
-            display: flex;
+            display: none;
+            opacity: 1;
             max-width: var(--dl-size-size-maxcontent);
             align-items: center;
             padding-top: var(--dl-space-space-tenunits);
@@ -844,7 +1481,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text02 {
+          .home-text100 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -887,10 +1524,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading01 {
+          .home-heading {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text03 {
+          .home-text101 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -925,10 +1562,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading02 {
+          .home-heading1 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text04 {
+          .home-text102 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -963,10 +1600,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading03 {
+          .home-heading2 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text05 {
+          .home-text103 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1000,10 +1637,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading04 {
+          .home-heading3 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text06 {
+          .home-text104 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1037,10 +1674,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading05 {
+          .home-heading4 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text07 {
+          .home-text105 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1074,16 +1711,16 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-heading06 {
+          .home-heading5 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text08 {
+          .home-text106 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
           .home-services {
             width: 100%;
-            display: flex;
+            display: none;
             max-width: var(--dl-size-size-maxcontent);
             margin-top: var(--dl-space-space-fiveunits);
             align-items: center;
@@ -1101,11 +1738,11 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text09 {
+          .home-text107 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text10 {
+          .home-text108 {
             color: var(--dl-color-gray-700);
             text-align: center;
           }
@@ -1127,11 +1764,11 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-text11 {
+          .home-text109 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text12 {
+          .home-text110 {
             color: var(--dl-color-gray-700);
             text-align: left;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1146,11 +1783,11 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-text13 {
+          .home-text111 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text14 {
+          .home-text112 {
             color: var(--dl-color-gray-700);
             text-align: left;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1165,11 +1802,11 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-text15 {
+          .home-text113 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text16 {
+          .home-text114 {
             color: var(--dl-color-gray-700);
             text-align: left;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1177,14 +1814,14 @@ const Home = (props) => {
           .home-section-separator {
             width: 100%;
             height: 1px;
-            display: flex;
+            display: none;
             align-items: flex-start;
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
           .home-team {
             width: 100%;
-            display: flex;
+            display: none;
             max-width: var(--dl-size-size-maxcontent);
             margin-top: var(--dl-space-space-fiveunits);
             align-items: center;
@@ -1204,11 +1841,11 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-text17 {
+          .home-text115 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text18 {
+          .home-text116 {
             color: var(--dl-color-gray-700);
             text-align: center;
           }
@@ -1348,14 +1985,14 @@ const Home = (props) => {
           .home-section-separator1 {
             width: 100%;
             height: 1px;
-            display: flex;
+            display: none;
             align-items: flex-start;
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
           .home-our-story {
             width: 100%;
-            display: flex;
+            display: none;
             max-width: var(--dl-size-size-maxcontent);
             margin-top: var(--dl-space-space-fiveunits);
             align-items: center;
@@ -1375,11 +2012,11 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-text19 {
+          .home-text117 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text20 {
+          .home-text118 {
             color: var(--dl-color-gray-700);
             text-align: center;
           }
@@ -1443,7 +2080,7 @@ const Home = (props) => {
             width: 48px;
             height: 48px;
           }
-          .home-content-container1 {
+          .home-content-container {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1453,14 +2090,14 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: flex-start;
           }
-          .home-heading07 {
+          .home-heading6 {
             text-align: left;
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text21 {
+          .home-text119 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text22 {
+          .home-text120 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
           .home-info-container {
@@ -1526,7 +2163,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-image3 {
+          .home-image2 {
             width: 100%;
             height: 160px;
             object-fit: cover;
@@ -1534,7 +2171,7 @@ const Home = (props) => {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
-          .home-content-container2 {
+          .home-content-container1 {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-tripleunit);
@@ -1544,7 +2181,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-text25 {
+          .home-text123 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -1601,7 +2238,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-image4 {
+          .home-image3 {
             width: 100%;
             height: 160px;
             object-fit: cover;
@@ -1609,7 +2246,7 @@ const Home = (props) => {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
-          .home-content-container3 {
+          .home-content-container2 {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-tripleunit);
@@ -1619,7 +2256,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-text28 {
+          .home-text126 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -1675,7 +2312,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-image5 {
+          .home-image4 {
             width: 100%;
             height: 160px;
             object-fit: cover;
@@ -1683,7 +2320,7 @@ const Home = (props) => {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
-          .home-content-container4 {
+          .home-content-container3 {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-tripleunit);
@@ -1693,7 +2330,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-text31 {
+          .home-text129 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -1749,7 +2386,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-image6 {
+          .home-image5 {
             width: 100%;
             height: 160px;
             object-fit: cover;
@@ -1757,7 +2394,7 @@ const Home = (props) => {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
-          .home-content-container5 {
+          .home-content-container4 {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-tripleunit);
@@ -1767,7 +2404,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-text34 {
+          .home-text132 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -1816,14 +2453,14 @@ const Home = (props) => {
           .home-section-separator2 {
             width: 100%;
             height: 1px;
-            display: flex;
+            display: none;
             align-items: flex-start;
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
           .home-get-in-touch {
             width: 100%;
-            display: flex;
+            display: none;
             max-width: var(--dl-size-size-maxcontent);
             margin-top: var(--dl-space-space-fiveunits);
             align-items: center;
@@ -1834,11 +2471,11 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: flex-start;
           }
-          .home-text37 {
+          .home-text135 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-content-container6 {
+          .home-content-container5 {
             width: 100%;
             display: flex;
             align-self: stretch;
@@ -1861,7 +2498,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             background-color: var(--dl-color-gray-900);
           }
-          .home-heading08 {
+          .home-heading7 {
             margin-bottom: var(--dl-space-space-fourunits);
           }
           .home-name5 {
@@ -1895,7 +2532,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
-          .home-cta-btn2 {
+          .home-cta-btn {
             color: var(--dl-color-gray-white);
             text-align: center;
             padding-top: var(--dl-space-space-unit);
@@ -1917,7 +2554,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-heading09 {
+          .home-heading8 {
             font-size: 24px;
             font-style: normal;
             font-family: Roboto;
@@ -2015,15 +2652,6 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-doubleunit);
           }
           @media (max-width: 991px) {
-            .home-hero {
-              flex-direction: column-reverse;
-            }
-            .home-content-container {
-              flex-direction: column-reverse;
-            }
-            .home-hero-text {
-              width: 80%;
-            }
             .home-cards-container2 {
               justify-content: center;
             }
@@ -2120,7 +2748,7 @@ const Home = (props) => {
               align-items: center;
               flex-direction: column;
             }
-            .home-content-container6 {
+            .home-content-container5 {
               width: 100%;
               flex-direction: column;
             }
@@ -2135,21 +2763,12 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-cta-btn {
-              font-size: 16px;
-              padding-left: var(--dl-space-space-doubleunit);
-              padding-right: var(--dl-space-space-doubleunit);
+            .home-container3 {
+              width: 90%;
             }
-            .home-hero {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-content-container {
-              padding-top: var(--dl-space-space-fiveunits);
-              padding-bottom: var(--dl-space-space-fiveunits);
-            }
-            .home-hero-text {
-              width: 100%;
+            .home-text001 {
+              top: 0px;
+              left: 0px;
             }
             .home-features {
               padding-top: var(--dl-space-space-fiveunits);
@@ -2190,13 +2809,13 @@ const Home = (props) => {
               padding-top: var(--dl-space-space-fiveunits);
               padding-bottom: var(--dl-space-space-fiveunits);
             }
-            .home-text17 {
+            .home-text115 {
               text-align: center;
             }
             .home-our-story {
               padding-top: var(--dl-space-space-fiveunits);
             }
-            .home-text19 {
+            .home-text117 {
               text-align: center;
             }
             .home-video {
@@ -2214,14 +2833,14 @@ const Home = (props) => {
             .home-card3 {
               width: 100%;
             }
-            .home-content-container6 {
+            .home-content-container5 {
               padding-left: 0px;
             }
             .home-form-container {
               padding: var(--dl-space-space-tripleunit);
               margin-right: 0px;
             }
-            .home-heading08 {
+            .home-heading7 {
               text-align: center;
             }
             .home-location-1 {
