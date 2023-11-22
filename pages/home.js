@@ -115,7 +115,7 @@ const Home = (props) => {
               </div>
               <img
                 alt="image"
-                src="/vasily-koloda-8cqdvpuo_ki-unsplash%20(1)-900h.jpg"
+                src="/vasily-koloda-8cqdvpuo_ki-unsplash%20(1)-1500w.jpg"
                 loading="eager"
                 className="home-image2"
               />
@@ -160,7 +160,7 @@ const Home = (props) => {
           <div className="home-section-separator"></div>
           <div className="home-mission-container">
             <div className="home-container08">
-              <h1>Mission</h1>
+              <h1 className="home-text017">Mission</h1>
               <span className="home-text018">
                 To contribute to societal good and prosperity in Nigeria through
                 assistance in the advancement of education to achieve excellence
@@ -173,7 +173,7 @@ const Home = (props) => {
         <div className="home-section-separator1"></div>
         <div className="home-seperator"></div>
         <div className="home-objectives">
-          <h1>Objectives</h1>
+          <h1 className="home-text019">Objectives</h1>
           <div className="home-container09">
             <div className="home-container10">
               <span className="home-text020">
@@ -217,7 +217,7 @@ const Home = (props) => {
         </div>
         <div className="home-section-separator2"></div>
         <div className="home-get-started">
-          <h1>Get started</h1>
+          <h1 className="home-text032">Get started</h1>
           <div className="home-container11">
             <span className="home-text033">
               <span>
@@ -267,7 +267,7 @@ const Home = (props) => {
                   <br></br>
                 </span>
               </li>
-              <li className="list-item">
+              <li className="list-item home-li07">
                 <span className="home-text050">
                   <span>
                     Attained a minimum of 5 credits in WAEC/SSCE/NECO, including
@@ -319,10 +319,8 @@ const Home = (props) => {
                   <li className="list-item">
                     <span className="home-text067">JAMB result</span>
                   </li>
-                  <li className="list-item">
-                    <span className="home-text068">
-                      University or JAMB Admission Letter
-                    </span>
+                  <li className="list-item home-li14">
+                    <span>University or JAMB Admission Letter</span>
                   </li>
                   <li className="list-item">
                     <span className="home-text069">
@@ -372,7 +370,7 @@ const Home = (props) => {
                   Download the application form from TBD
                 </span>
               </li>
-              <li className="list-item">
+              <li className="list-item home-li22">
                 <span className="home-text080">
                   <span>
                     Send scanned original copies of the following documents in
@@ -391,19 +389,17 @@ const Home = (props) => {
                     <span className="home-text086">WAEC/NECO result</span>
                   </li>
                   <li className="list-item">
-                    <span className="home-text087">JAMB result</span>
+                    <span>JAMB result</span>
                   </li>
                   <li className="list-item">
                     <span className="home-text088">
                       University or JAMB Admission Letter
                     </span>
                   </li>
-                  <li className="list-item">
-                    <span className="home-text089">
-                      Current passport photograph
-                    </span>
+                  <li className="list-item home-li26">
+                    <span>Current passport photograph</span>
                   </li>
-                  <li className="list-item">
+                  <li className="list-item home-li27">
                     <span className="home-text090">
                       <span>
                         Guarantor’s written consent of good conduct of the
@@ -415,18 +411,16 @@ const Home = (props) => {
                       </span>
                     </span>
                     <ul className="home-ul5 list">
-                      <li className="list-item">
+                      <li className="list-item home-li28">
                         <span className="home-text094">
                           Chairman of the LGA.
                         </span>
                       </li>
-                      <li className="list-item">
-                        <span className="home-text095">
-                          First class traditional ruler
-                        </span>
+                      <li className="list-item home-li29">
+                        <span>First class traditional ruler</span>
                       </li>
-                      <li className="list-item">
-                        <span className="home-text096">Reputable Clergy</span>
+                      <li className="list-item home-li30">
+                        <span>Reputable Clergy</span>
                       </li>
                     </ul>
                   </li>
@@ -442,7 +436,7 @@ const Home = (props) => {
             </span>
             <span className="home-text101">For more information:</span>
             <ul className="home-more-information-list list">
-              <li className="list-item">
+              <li className="list-item home-li31">
                 <span className="home-text102">
                   Contact your school Principal
                 </span>
@@ -1436,7 +1430,6 @@ const Home = (props) => {
             font-weight: 300;
           }
           .home-text038 {
-            font-size: 30px;
             font-style: normal;
             font-weight: 300;
           }
@@ -1496,13 +1489,9 @@ const Home = (props) => {
           }
           .home-text047 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-text050 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-text054 {
             font-size: 20px;
@@ -1556,10 +1545,6 @@ const Home = (props) => {
             font-style: normal;
             font-weight: 600;
           }
-          .home-text068 {
-            font-style: normal;
-            font-weight: 600;
-          }
           .home-text069 {
             font-style: normal;
             font-weight: 600;
@@ -1604,47 +1589,15 @@ const Home = (props) => {
           }
           .home-text080 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-ul4 {
             list-style-type: disc;
           }
           .home-text086 {
             font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-text087 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-text088 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-text089 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-text090 {
-            font-style: normal;
-            font-weight: 600;
           }
           .home-ul5 {
             list-style-type: square;
-          }
-          .home-text094 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-text095 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-text096 {
-            font-style: normal;
-            font-weight: 600;
           }
           .home-text097 {
             font-size: 30px;
@@ -1670,8 +1623,6 @@ const Home = (props) => {
           }
           .home-text102 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-li32 {
             text-align: left;
@@ -3168,11 +3119,14 @@ const Home = (props) => {
               justify-content: center;
             }
           }
-          @media (max-width: 479px) {
+          @media (max-width: 320px) {
             .home-burger-menu {
               display: none;
               border-color: var(--dl-color-gray-black);
               border-width: 1px;
+            }
+            .home-text {
+              font-size: 0.8rem;
             }
             .home-hero {
               padding-top: 32px;
@@ -3182,6 +3136,7 @@ const Home = (props) => {
             }
             .home-container03 {
               top: var(--dl-space-space-tripleunit);
+              width: 95%;
             }
             .home-container04 {
               margin-bottom: var(--dl-space-space-unit);
@@ -3201,7 +3156,13 @@ const Home = (props) => {
               font-size: 1.1rem;
               font-weight: 400;
             }
+            .home-text004 {
+              font-size: 1.1rem;
+              margin-top: var(--dl-space-space-doubleunit);
+              margin-bottom: var(--dl-space-space-doubleunit);
+            }
             .home-text005 {
+              font-size: 1rem;
               font-style: inherit;
               font-weight: 400;
             }
@@ -3219,6 +3180,7 @@ const Home = (props) => {
             .home-image2 {
               align-self: center;
               margin-top: 5%;
+              padding-top: var(--dl-space-space-doubleunit);
             }
             .home-container05 {
               width: 95%;
@@ -3238,9 +3200,22 @@ const Home = (props) => {
             .home-mission-container {
               width: 95%;
             }
+            .home-text017 {
+              font-size: 1.5rem;
+            }
+            .home-text018 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
             .home-objectives {
               width: 95%;
-              height: 55vh;
+              height: 0vh;
+              max-height: 60vh;
+              min-height: 70vh;
+            }
+            .home-text019 {
+              font-size: 1.5rem;
             }
             .home-container09 {
               width: 100%;
@@ -3248,11 +3223,200 @@ const Home = (props) => {
             .home-container10 {
               width: 95%;
             }
+            .home-text020 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-text021 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text027 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text028 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
             .home-get-started {
               margin-bottom: var(--dl-space-space-fourunits);
             }
+            .home-text032 {
+              font-size: 1.5rem;
+            }
             .home-container11 {
               width: 95%;
+            }
+            .home-text033 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-text037 {
+              font-size: 1.5rem;
+            }
+            .home-text040 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text041 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text042 {
+              font-size: 1.5rem;
+            }
+            .home-text046 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-li06 {
+              font-size: 1.1rem;
+            }
+            .home-li07 {
+              font-size: 1.1rem;
+            }
+            .home-text054 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text055 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text059 {
+              font-size: 1.5rem;
+            }
+            .home-text064 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text065 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text066 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text067 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-li14 {
+              font-size: 1.1rem;
+            }
+            .home-text069 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text070 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text074 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text075 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text076 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text077 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text079 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-li22 {
+              font-size: 1.1rem;
+            }
+            .home-text088 {
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-li26 {
+              font-size: 1.1rem;
+            }
+            .home-li27 {
+              font-size: 1.1rem;
+            }
+            .home-text090 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-li28 {
+              font-size: 1.1rem;
+            }
+            .home-text094 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-li29 {
+              font-size: 1.1rem;
+            }
+            .home-li30 {
+              font-size: 1.1rem;
+            }
+            .home-text097 {
+              font-size: 1.5rem;
+            }
+            .home-text100 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text101 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-li31 {
+              font-size: 1.1rem;
+            }
+            .home-text102 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-text103 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-link09 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
             }
             .home-features {
               padding-top: var(--dl-space-space-fiveunits);

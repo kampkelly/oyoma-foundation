@@ -77,9 +77,11 @@ const HomeBackup = (props) => {
             <div className="home-backup-container03">
               <div className="home-backup-container04"></div>
               <h1 className="home-backup-text001">
-                <span>Welcome To Ogheneyoma Adekpiyede Foundation.</span>
-                <br></br>
-                <span>Empower Dreams.</span>
+                <span className="home-backup-text002">
+                  Welcome To Ogheneyoma Adekpiyede Foundation.
+                </span>
+                <br className="home-backup-text003"></br>
+                <span className="home-backup-text004">Empower Dreams.</span>
                 <br></br>
               </h1>
             </div>
@@ -111,12 +113,16 @@ const HomeBackup = (props) => {
           </div>
           <div className="home-backup-mission-container">
             <div className="home-backup-container06">
-              <h1>Mission</h1>
+              <h1 className="home-backup-text010">Mission</h1>
               <span className="home-backup-text011">
-                To contribute to societal good and prosperity in Nigeria through
-                assistance in the advancement of education to achieve excellence
-                and high moral standards at all levels in the community with
-                particular emphasis on young people from deprived backgrounds.
+                <span className="home-backup-text012">
+                  To contribute to societal good and prosperity in Nigeria
+                  through assistance in the advancement of education to achieve
+                  excellence and high moral standards at all levels in the
+                  community with particular emphasis on young people from
+                  deprived backgrounds.
+                </span>
+                <br className="home-backup-text013"></br>
               </span>
             </div>
           </div>
@@ -124,15 +130,15 @@ const HomeBackup = (props) => {
         <div className="home-backup-section-separator"></div>
         <div className="home-backup-seperator"></div>
         <div className="home-backup-objectives">
-          <h1>Objectives</h1>
+          <h1 className="home-backup-text014">Objectives</h1>
           <div className="home-backup-container07">
             <div className="home-backup-container08">
-              <span className="home-backup-text013">
+              <span className="home-backup-text015">
                 The Adjekpiyede Foundation will support projects which:
               </span>
               <ul className="list">
                 <li className="home-backup-li list-item">
-                  <span className="home-backup-text014">
+                  <span className="home-backup-text016">
                     <span>
                       Improve the access for all students to quality preschool,
                       primary, secondary and tertiary
@@ -147,13 +153,13 @@ const HomeBackup = (props) => {
                   </span>
                 </li>
                 <li className="home-backup-li01 list-item">
-                  <span className="home-backup-text020">
+                  <span className="home-backup-text022">
                     Build self-esteem and high morals in children, youth and
                     adults
                   </span>
                 </li>
                 <li className="home-backup-li02 list-item">
-                  <span className="home-backup-text021">
+                  <span className="home-backup-text023">
                     <span>
                       Provide low income adults the opportunity to obtain
                       further education and credentials to
@@ -168,9 +174,9 @@ const HomeBackup = (props) => {
         </div>
         <div className="home-backup-section-separator1"></div>
         <div className="home-backup-get-started">
-          <h1>Get started</h1>
+          <h1 className="home-backup-text027">Get started</h1>
           <div className="home-backup-container09">
-            <span className="home-backup-text026">
+            <span className="home-backup-text028">
               <span>
                 Are you a dedicated student from Agadama community with dreams
                 of higher education? The
@@ -181,37 +187,37 @@ const HomeBackup = (props) => {
                 aspirations!
               </span>
             </span>
-            <h3 className="home-backup-text030">
-              <span className="home-backup-text031">Objectives</span>
+            <h3 className="home-backup-text032">
+              <span className="home-backup-text033">Objectives</span>
               <br></br>
             </h3>
             <ul className="home-backup-ul1 list">
               <li className="home-backup-li03 list-item">
-                <span className="home-backup-text033">
+                <span className="home-backup-text035">
                   Improve access to quality education for all students.
                 </span>
               </li>
               <li className="home-backup-li04 list-item">
-                <span className="home-backup-text034">
+                <span className="home-backup-text036">
                   Build self-esteem and high moral standards in children, youth,
                   and adults.
                 </span>
               </li>
             </ul>
-            <h3 className="home-backup-text035">
+            <h3 className="home-backup-text037">
               <span>ELIGIBILITY CRITERIA</span>
               <br></br>
             </h3>
-            <span className="home-backup-text038">Applicants must:</span>
+            <span className="home-backup-text040">Applicants must:</span>
             <ul className="home-backup-eligibility-criteria-list list">
               <li className="home-backup-li05 list-item">
-                <span className="home-backup-text039">
+                <span className="home-backup-text041">
                   Be indigenes of Agadama community in Uwheru, Ughelli-North LGA
                   of Delta State.
                 </span>
               </li>
               <li className="home-backup-li06 list-item">
-                <span className="home-backup-text040">
+                <span className="home-backup-text042">
                   <span>
                     Have completed primary and/or secondary school in Uwheru.
                   </span>
@@ -219,7 +225,7 @@ const HomeBackup = (props) => {
                 </span>
               </li>
               <li className="list-item">
-                <span className="home-backup-text043">
+                <span className="home-backup-text045">
                   <span>
                     Attained a minimum of 5 credits in WAEC/SSCE/NECO, including
                     English Language
@@ -228,13 +234,13 @@ const HomeBackup = (props) => {
                   <span>and Mathematics in no more than 2 sittings.</span>
                 </span>
               </li>
-              <li className="list-item">
-                <span className="home-backup-text047">
+              <li className="list-item home-backup-li08">
+                <span className="home-backup-text049">
                   Have a JAMB score of 200 or greater.
                 </span>
               </li>
-              <li className="list-item">
-                <span className="home-backup-text048">
+              <li className="list-item home-backup-li09">
+                <span className="home-backup-text050">
                   <span>
                     Have gained admission in the 2023/2024 academic session to
                     study specific courses at a
@@ -244,46 +250,42 @@ const HomeBackup = (props) => {
                 </span>
               </li>
             </ul>
-            <h3 className="home-backup-text052">
+            <h3 className="home-backup-text054">
               <span>HOW TO APPLY</span>
               <br></br>
             </h3>
-            <span className="home-backup-text055">
+            <span className="home-backup-text057">
               Application can be done in two ways:
             </span>
-            <span className="home-backup-text056">A) Via your School</span>
+            <span className="home-backup-text058">A) Via your School</span>
             <ul className="home-backup-how-to-apply-list-a list">
               <li className="list-item">
-                <span className="home-backup-text057">
+                <span className="home-backup-text059">
                   Obtain and complete the application form from your school
                   principal.
                 </span>
               </li>
-              <li className="list-item">
-                <span className="home-backup-text058">
+              <li className="list-item home-backup-li11">
+                <span className="home-backup-text060">
                   Attach the following documents:
                 </span>
                 <ul className="home-backup-ul2 list">
                   <li className="list-item">
-                    <span className="home-backup-text059">
+                    <span className="home-backup-text061">
                       WAEC/NECO result
                     </span>
                   </li>
                   <li className="list-item">
-                    <span className="home-backup-text060">JAMB result</span>
+                    <span>JAMB result</span>
                   </li>
                   <li className="list-item">
-                    <span className="home-backup-text061">
-                      University or JAMB Admission Letter
-                    </span>
+                    <span>University or JAMB Admission Letter</span>
                   </li>
                   <li className="list-item">
-                    <span className="home-backup-text062">
-                      Current passport photograph
-                    </span>
+                    <span>Current passport photograph</span>
                   </li>
                   <li className="list-item">
-                    <span className="home-backup-text063">
+                    <span>
                       <span>
                         Guarantor’s written consent of good conduct of the
                         applicant from any of the
@@ -295,40 +297,34 @@ const HomeBackup = (props) => {
                     </span>
                     <ul className="home-backup-ul3 list">
                       <li className="list-item">
-                        <span className="home-backup-text067">
-                          Chairman of the LGA.
-                        </span>
+                        <span>Chairman of the LGA.</span>
                       </li>
                       <li className="list-item">
-                        <span className="home-backup-text068">
-                          First class traditional ruler
-                        </span>
+                        <span>First class traditional ruler</span>
                       </li>
                       <li className="list-item">
-                        <span className="home-backup-text069">
-                          Reputable Clergy
-                        </span>
+                        <span>Reputable Clergy</span>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li className="list-item">
-                <span className="home-backup-text070">
+                <span className="home-backup-text072">
                   Submit the completed form and documents to your school
                   principal.
                 </span>
               </li>
             </ul>
-            <span className="home-backup-text071">B) Online</span>
+            <span className="home-backup-text073">B) Online</span>
             <ul className="home-backup-how-to-apply-list-b list">
               <li className="list-item">
-                <span className="home-backup-text072">
+                <span className="home-backup-text074">
                   Download the application form from TBD
                 </span>
               </li>
               <li className="list-item">
-                <span className="home-backup-text073">
+                <span className="home-backup-text075">
                   <span>
                     Send scanned original copies of the following documents in
                     one email to
@@ -343,25 +339,23 @@ const HomeBackup = (props) => {
                 </span>
                 <ul className="home-backup-ul4 list">
                   <li className="list-item">
-                    <span className="home-backup-text079">
+                    <span className="home-backup-text081">
                       WAEC/NECO result
                     </span>
                   </li>
                   <li className="list-item">
-                    <span className="home-backup-text080">JAMB result</span>
+                    <span>JAMB result</span>
                   </li>
                   <li className="list-item">
-                    <span className="home-backup-text081">
+                    <span className="home-backup-text083">
                       University or JAMB Admission Letter
                     </span>
                   </li>
                   <li className="list-item">
-                    <span className="home-backup-text082">
-                      Current passport photograph
-                    </span>
+                    <span>Current passport photograph</span>
                   </li>
                   <li className="list-item">
-                    <span className="home-backup-text083">
+                    <span className="home-backup-text085">
                       <span>
                         Guarantor’s written consent of good conduct of the
                         applicant from any of the
@@ -373,41 +367,37 @@ const HomeBackup = (props) => {
                     </span>
                     <ul className="home-backup-ul5 list">
                       <li className="list-item">
-                        <span className="home-backup-text087">
-                          Chairman of the LGA.
-                        </span>
+                        <span>Chairman of the LGA.</span>
                       </li>
                       <li className="list-item">
-                        <span className="home-backup-text088">
+                        <span className="home-backup-text090">
                           First class traditional ruler
                         </span>
                       </li>
                       <li className="list-item">
-                        <span className="home-backup-text089">
-                          Reputable Clergy
-                        </span>
+                        <span>Reputable Clergy</span>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
             </ul>
-            <h3 className="home-backup-text090">
+            <h3 className="home-backup-text092">
               <span>DEADLINE</span>
               <br></br>
             </h3>
-            <span className="home-backup-text093">
+            <span className="home-backup-text095">
               Application Deadline: November 30th, 2023
             </span>
-            <span className="home-backup-text094">For more information:</span>
+            <span className="home-backup-text096">For more information:</span>
             <ul className="home-backup-more-information-list list">
               <li className="list-item">
-                <span className="home-backup-text095">
+                <span className="home-backup-text097">
                   Contact your school Principal
                 </span>
               </li>
               <li className="home-backup-li32 list-item">
-                <span className="home-backup-text096">Send an email to</span>
+                <span className="home-backup-text098">Send an email to</span>
                 <a
                   href="mailto:ogheneyomaadjekpiyedefdn@gmail.com?subject=Information About Ogheneyoma Adjekpiyede Foundation"
                   className="home-backup-link08"
@@ -426,9 +416,7 @@ const HomeBackup = (props) => {
                 rel="noreferrer noopener"
                 className="home-backup-link09"
               >
-                <span className="home-backup-text097">
-                  Download Application Form Now
-                </span>
+                <span>Download Application Form Now</span>
                 <br></br>
               </a>
             </button>
@@ -436,7 +424,7 @@ const HomeBackup = (props) => {
         </div>
         <div id="inspiration" className="home-backup-features">
           <div className="home-backup-heading-container">
-            <h2 className="home-backup-text099 Section-Heading">
+            <h2 className="home-backup-text101 Section-Heading">
               Which are the greatest things about it?
             </h2>
           </div>
@@ -452,7 +440,7 @@ const HomeBackup = (props) => {
                 <span className="home-backup-heading Card-Heading">
                   Feature One
                 </span>
-                <span className="home-backup-text100 Card-Text">
+                <span className="home-backup-text102 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -470,7 +458,7 @@ const HomeBackup = (props) => {
                 <span className="home-backup-heading1 Card-Heading">
                   Feature Two
                 </span>
-                <span className="home-backup-text101 Card-Text">
+                <span className="home-backup-text103 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -488,7 +476,7 @@ const HomeBackup = (props) => {
                 <span className="home-backup-heading2 Card-Heading">
                   Feature Three
                 </span>
-                <span className="home-backup-text102 Card-Text">
+                <span className="home-backup-text104 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -506,7 +494,7 @@ const HomeBackup = (props) => {
                 <span className="home-backup-heading3 Card-Heading">
                   Feature Four
                 </span>
-                <span className="home-backup-text103 Card-Text">
+                <span className="home-backup-text105 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -524,7 +512,7 @@ const HomeBackup = (props) => {
                 <span className="home-backup-heading4 Card-Heading">
                   Feature Five
                 </span>
-                <span className="home-backup-text104 Card-Text">
+                <span className="home-backup-text106 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -542,7 +530,7 @@ const HomeBackup = (props) => {
                 <span className="home-backup-heading5 Card-Heading">
                   Feature Six
                 </span>
-                <span className="home-backup-text105 Card-Text">
+                <span className="home-backup-text107 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -553,30 +541,17 @@ const HomeBackup = (props) => {
         </div>
         <div id="process" className="home-backup-services">
           <div className="home-backup-heading-container1">
-            <h1 className="home-backup-text106 Section-Heading">
+            <h1 className="home-backup-text108 Section-Heading">
               More things to explore
             </h1>
-            <span className="home-backup-text107 Section-Text">
+            <span className="home-backup-text109 Section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
           </div>
           <div className="home-backup-cards-container1">
             <div className="home-backup-service-card">
-              <h3 className="home-backup-text108 Card-Heading">Resources</h3>
-              <span className="home-backup-text109 Card-Text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                nec odio. Praesent libero.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="Anchor">Learn more</span>
-            </div>
-            <div className="home-backup-service-card1">
-              <h3 className="home-backup-text110 Card-Heading">Community</h3>
+              <h3 className="home-backup-text110 Card-Heading">Resources</h3>
               <span className="home-backup-text111 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero.
@@ -588,9 +563,22 @@ const HomeBackup = (props) => {
               </span>
               <span className="Anchor">Learn more</span>
             </div>
-            <div className="home-backup-service-card2">
-              <h3 className="home-backup-text112 Card-Heading">Newsroom</h3>
+            <div className="home-backup-service-card1">
+              <h3 className="home-backup-text112 Card-Heading">Community</h3>
               <span className="home-backup-text113 Card-Text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                nec odio. Praesent libero.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="Anchor">Learn more</span>
+            </div>
+            <div className="home-backup-service-card2">
+              <h3 className="home-backup-text114 Card-Heading">Newsroom</h3>
+              <span className="home-backup-text115 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero.
                 <span
@@ -605,10 +593,10 @@ const HomeBackup = (props) => {
         </div>
         <div className="home-backup-team">
           <div className="home-backup-heading-container2">
-            <h1 className="home-backup-text114 Section-Heading">
+            <h1 className="home-backup-text116 Section-Heading">
               Meet the Team
             </h1>
-            <span className="home-backup-text115 Section-Text">
+            <span className="home-backup-text117 Section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
@@ -663,8 +651,8 @@ const HomeBackup = (props) => {
         </div>
         <div id="ourstory" className="home-backup-our-story">
           <div className="home-backup-heading-container3">
-            <h1 className="home-backup-text116 Section-Heading">Our story</h1>
-            <span className="home-backup-text117 Section-Text">
+            <h1 className="home-backup-text118 Section-Heading">Our story</h1>
+            <span className="home-backup-text119 Section-Text">
               Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
             </span>
@@ -684,7 +672,7 @@ const HomeBackup = (props) => {
                   This text is the name of the article. Lorem ipsum dolor sit
                   metsed do eiusm od tempor.
                 </span>
-                <span className="home-backup-text118 Card-Text">
+                <span className="home-backup-text120 Card-Text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer nec odio. Praesent libero. Sed cursus ante dapibus
                   diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -693,7 +681,7 @@ const HomeBackup = (props) => {
                   nulla. Class aptent taciti sociosqu ad litora torquent per
                   conubia nostra, per inceptos himenaeos.
                 </span>
-                <span className="home-backup-text119 Card-Text">
+                <span className="home-backup-text121 Card-Text">
                   {' '}
                   Fusce nec tellus sed augue semper porta. Mauris massa.
                   Vestibulum lacinia arcu eget nulla. Class aptent taciti
@@ -728,7 +716,7 @@ const HomeBackup = (props) => {
                   className="home-backup-image3"
                 />
                 <div className="home-backup-content-container1">
-                  <span className="home-backup-text122 SmallCard-Heading">
+                  <span className="home-backup-text124 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -765,7 +753,7 @@ const HomeBackup = (props) => {
                   className="home-backup-image4"
                 />
                 <div className="home-backup-content-container2">
-                  <span className="home-backup-text125 SmallCard-Heading">
+                  <span className="home-backup-text127 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -802,7 +790,7 @@ const HomeBackup = (props) => {
                   className="home-backup-image5"
                 />
                 <div className="home-backup-content-container3">
-                  <span className="home-backup-text128 SmallCard-Heading">
+                  <span className="home-backup-text130 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -839,7 +827,7 @@ const HomeBackup = (props) => {
                   className="home-backup-image6"
                 />
                 <div className="home-backup-content-container4">
-                  <span className="home-backup-text131 SmallCard-Heading">
+                  <span className="home-backup-text133 SmallCard-Heading">
                     This text is the name of the article. Lorem ipsum dolor sit
                     metsed ...
                   </span>
@@ -874,7 +862,7 @@ const HomeBackup = (props) => {
         </div>
         <div className="home-backup-section-separator2"></div>
         <div className="home-backup-get-in-touch">
-          <h2 className="home-backup-text134 Section-Heading">Get in touch</h2>
+          <h2 className="home-backup-text136 Section-Heading">Get in touch</h2>
           <div className="home-backup-content-container5">
             <div className="home-backup-form-container">
               <span className="home-backup-heading7 BigCard-Heading">
@@ -966,6 +954,7 @@ const HomeBackup = (props) => {
             width: 100%;
             height: auto;
             display: flex;
+            font-size: 1.1rem;
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
@@ -1153,7 +1142,7 @@ const HomeBackup = (props) => {
           }
           .home-backup-text001 {
             top: 0px;
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             right: 0px;
             width: 100%;
             height: 170px;
@@ -1177,12 +1166,6 @@ const HomeBackup = (props) => {
             font-style: normal;
             text-align: center;
             font-weight: 500;
-          }
-          .home-backup-text007 {
-            font-size: 25px;
-          }
-          .home-backup-text008 {
-            font-size: 25px;
           }
           .home-backup-link07 {
             color: rgb(255, 255, 255);
@@ -1221,9 +1204,11 @@ const HomeBackup = (props) => {
             flex-direction: column;
             justify-content: center;
           }
+          .home-backup-text010 {
+            font-size: 1.8rem;
+          }
           .home-backup-text011 {
-            font-size: 20px;
-            font-style: normal;
+            font-size: 1.1rem;
             text-align: center;
             font-weight: 600;
           }
@@ -1246,9 +1231,14 @@ const HomeBackup = (props) => {
             width: 100%;
             height: 40vh;
             display: flex;
+            font-size: 1.1rem;
+            max-height: 60vh;
             align-items: center;
             padding-top: 0px;
             flex-direction: column;
+          }
+          .home-backup-text014 {
+            font-size: 1.8rem;
           }
           .home-backup-container07 {
             flex: 0 0 auto;
@@ -1266,7 +1256,7 @@ const HomeBackup = (props) => {
             padding-bottom: 0px;
             justify-content: flex-start;
           }
-          .home-backup-text013 {
+          .home-backup-text015 {
             font-size: 20px;
             align-self: flex-start;
             font-style: normal;
@@ -1278,7 +1268,7 @@ const HomeBackup = (props) => {
             list-style-image: none;
             list-style-position: outside;
           }
-          .home-backup-text014 {
+          .home-backup-text016 {
             font-size: 20px;
             font-style: normal;
             margin-top: 0px;
@@ -1290,7 +1280,7 @@ const HomeBackup = (props) => {
             list-style-image: none;
             list-style-position: outside;
           }
-          .home-backup-text020 {
+          .home-backup-text022 {
             font-size: 20px;
             font-style: normal;
             font-weight: 600;
@@ -1300,7 +1290,7 @@ const HomeBackup = (props) => {
             list-style-image: none;
             list-style-position: outside;
           }
-          .home-backup-text021 {
+          .home-backup-text023 {
             font-size: 20px;
             font-style: normal;
             font-weight: 600;
@@ -1317,10 +1307,14 @@ const HomeBackup = (props) => {
             width: 100%;
             height: auto;
             display: flex;
+            font-size: 1.1rem;
             align-items: center;
             margin-bottom: var(--dl-space-space-tenunits);
             flex-direction: column;
             justify-content: center;
+          }
+          .home-backup-text027 {
+            font-size: 1.8rem;
           }
           .home-backup-container09 {
             width: 70%;
@@ -1331,7 +1325,7 @@ const HomeBackup = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: flex-start;
           }
-          .home-backup-text026 {
+          .home-backup-text028 {
             width: auto;
             font-size: 20px;
             align-self: flex-start;
@@ -1339,13 +1333,13 @@ const HomeBackup = (props) => {
             text-align: left;
             font-weight: 600;
           }
-          .home-backup-text030 {
+          .home-backup-text032 {
             font-size: 10px;
             align-self: flex-start;
             margin-top: var(--dl-space-space-doubleunit);
             font-weight: 300;
           }
-          .home-backup-text031 {
+          .home-backup-text033 {
             font-size: 30px;
             font-style: normal;
             font-weight: 300;
@@ -1358,27 +1352,25 @@ const HomeBackup = (props) => {
             list-style-image: none;
             list-style-position: outside;
           }
-          .home-backup-text033 {
+          .home-backup-text035 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-backup-li04 {
             list-style-type: disc;
             list-style-image: none;
             list-style-position: outside;
           }
-          .home-backup-text034 {
+          .home-backup-text036 {
             font-size: 20px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-backup-text035 {
+          .home-backup-text037 {
             font-size: 30px;
             align-self: flex-start;
             font-weight: 300;
           }
-          .home-backup-text038 {
+          .home-backup-text040 {
             font-size: 20px;
             align-self: flex-start;
             font-style: normal;
@@ -1394,7 +1386,7 @@ const HomeBackup = (props) => {
             list-style-image: none;
             list-style-position: outside;
           }
-          .home-backup-text039 {
+          .home-backup-text041 {
             font-size: 20px;
             font-style: normal;
             font-weight: 600;
@@ -1404,38 +1396,30 @@ const HomeBackup = (props) => {
             list-style-image: none;
             list-style-position: outside;
           }
-          .home-backup-text040 {
+          .home-backup-text042 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
-          .home-backup-text043 {
+          .home-backup-text045 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
-          .home-backup-text047 {
+          .home-backup-text049 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
-          .home-backup-text048 {
+          .home-backup-text050 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
-          .home-backup-text052 {
+          .home-backup-text054 {
             font-size: 30px;
             align-self: flex-start;
             font-weight: 300;
           }
-          .home-backup-text055 {
+          .home-backup-text057 {
             font-size: 20px;
             align-self: flex-start;
             font-style: normal;
             font-weight: 600;
           }
-          .home-backup-text056 {
+          .home-backup-text058 {
             font-size: 20px;
             align-self: flex-start;
             font-style: normal;
@@ -1444,68 +1428,22 @@ const HomeBackup = (props) => {
           .home-backup-how-to-apply-list-a {
             list-style-type: decimal;
           }
-          .home-backup-text057 {
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text058 {
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-ul2 {
-            list-style-type: disc;
-          }
           .home-backup-text059 {
-            font-size: 18px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 600;
           }
           .home-backup-text060 {
-            font-style: normal;
-            font-weight: 600;
+            font-size: 20px;
+          }
+          .home-backup-ul2 {
+            list-style-type: disc;
           }
           .home-backup-text061 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text062 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text063 {
-            font-style: normal;
-            font-weight: 600;
+            font-size: 18px;
           }
           .home-backup-ul3 {
             list-style-type: square;
-          }
-          .home-backup-text067 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text068 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text069 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text070 {
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text071 {
-            font-size: 20px;
-            align-self: flex-start;
-            font-style: normal;
-            font-weight: 700;
-          }
-          .home-backup-how-to-apply-list-b {
-            list-style-type: decimal;
           }
           .home-backup-text072 {
             font-size: 20px;
@@ -1514,60 +1452,40 @@ const HomeBackup = (props) => {
           }
           .home-backup-text073 {
             font-size: 20px;
+            align-self: flex-start;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
+          }
+          .home-backup-how-to-apply-list-b {
+            list-style-type: decimal;
+          }
+          .home-backup-text074 {
+            font-size: 20px;
+          }
+          .home-backup-text075 {
+            font-size: 20px;
           }
           .home-backup-ul4 {
             list-style-type: disc;
           }
-          .home-backup-text079 {
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text080 {
-            font-style: normal;
-            font-weight: 600;
-          }
           .home-backup-text081 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text082 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text083 {
-            font-style: normal;
-            font-weight: 600;
+            font-size: 18px;
           }
           .home-backup-ul5 {
             list-style-type: square;
           }
-          .home-backup-text087 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text088 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text089 {
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-backup-text090 {
+          .home-backup-text092 {
             font-size: 30px;
             align-self: flex-start;
             font-weight: 300;
           }
-          .home-backup-text093 {
+          .home-backup-text095 {
             font-size: 20px;
             align-self: flex-start;
             font-style: normal;
             font-weight: 600;
           }
-          .home-backup-text094 {
+          .home-backup-text096 {
             font-size: 20px;
             align-self: flex-start;
             font-style: normal;
@@ -1578,23 +1496,17 @@ const HomeBackup = (props) => {
             position: relative;
             list-style-type: disc;
           }
-          .home-backup-text095 {
+          .home-backup-text097 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-backup-li32 {
             text-align: left;
           }
-          .home-backup-text096 {
+          .home-backup-text098 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-backup-link08 {
             font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-backup-download-form-button {
             color: #ffffff;
@@ -1603,11 +1515,6 @@ const HomeBackup = (props) => {
           }
           .home-backup-link09 {
             text-decoration: none;
-          }
-          .home-backup-text097 {
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
           }
           .home-backup-features {
             width: 100%;
@@ -1628,7 +1535,7 @@ const HomeBackup = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-backup-text099 {
+          .home-backup-text101 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -1674,7 +1581,7 @@ const HomeBackup = (props) => {
           .home-backup-heading {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-backup-text100 {
+          .home-backup-text102 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1712,7 +1619,7 @@ const HomeBackup = (props) => {
           .home-backup-heading1 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-backup-text101 {
+          .home-backup-text103 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1750,7 +1657,7 @@ const HomeBackup = (props) => {
           .home-backup-heading2 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-backup-text102 {
+          .home-backup-text104 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1787,7 +1694,7 @@ const HomeBackup = (props) => {
           .home-backup-heading3 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-backup-text103 {
+          .home-backup-text105 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1824,7 +1731,7 @@ const HomeBackup = (props) => {
           .home-backup-heading4 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-backup-text104 {
+          .home-backup-text106 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1861,7 +1768,7 @@ const HomeBackup = (props) => {
           .home-backup-heading5 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-backup-text105 {
+          .home-backup-text107 {
             color: var(--dl-color-gray-700);
             text-align: left;
           }
@@ -1885,11 +1792,11 @@ const HomeBackup = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-backup-text106 {
+          .home-backup-text108 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-backup-text107 {
+          .home-backup-text109 {
             color: var(--dl-color-gray-700);
             text-align: center;
           }
@@ -1911,11 +1818,11 @@ const HomeBackup = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-backup-text108 {
+          .home-backup-text110 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-backup-text109 {
+          .home-backup-text111 {
             color: var(--dl-color-gray-700);
             text-align: left;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1930,11 +1837,11 @@ const HomeBackup = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-backup-text110 {
+          .home-backup-text112 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-backup-text111 {
+          .home-backup-text113 {
             color: var(--dl-color-gray-700);
             text-align: left;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1949,11 +1856,11 @@ const HomeBackup = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-900);
           }
-          .home-backup-text112 {
+          .home-backup-text114 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-backup-text113 {
+          .home-backup-text115 {
             color: var(--dl-color-gray-700);
             text-align: left;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1980,11 +1887,11 @@ const HomeBackup = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-backup-text114 {
+          .home-backup-text116 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-backup-text115 {
+          .home-backup-text117 {
             color: var(--dl-color-gray-700);
             text-align: center;
           }
@@ -2143,11 +2050,11 @@ const HomeBackup = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-backup-text116 {
+          .home-backup-text118 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-backup-text117 {
+          .home-backup-text119 {
             color: var(--dl-color-gray-700);
             text-align: center;
           }
@@ -2225,10 +2132,10 @@ const HomeBackup = (props) => {
             text-align: left;
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-backup-text118 {
+          .home-backup-text120 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-backup-text119 {
+          .home-backup-text121 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
           .home-backup-info-container {
@@ -2312,7 +2219,7 @@ const HomeBackup = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-backup-text122 {
+          .home-backup-text124 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -2387,7 +2294,7 @@ const HomeBackup = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-backup-text125 {
+          .home-backup-text127 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -2461,7 +2368,7 @@ const HomeBackup = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-backup-text128 {
+          .home-backup-text130 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -2535,7 +2442,7 @@ const HomeBackup = (props) => {
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: space-between;
           }
-          .home-backup-text131 {
+          .home-backup-text133 {
             text-align: left;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
@@ -2602,7 +2509,7 @@ const HomeBackup = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: flex-start;
           }
-          .home-backup-text134 {
+          .home-backup-text136 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -2824,6 +2731,9 @@ const HomeBackup = (props) => {
               z-index: 20;
               position: absolute;
             }
+            .home-backup-text011 {
+              font-size: 1.1rem;
+            }
             .home-backup-download-form-button {
               color: rgb(255, 255, 255);
               background-color: #c52726;
@@ -2835,6 +2745,14 @@ const HomeBackup = (props) => {
             }
             .home-backup-container05 {
               width: 70%;
+            }
+            .home-backup-text011 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 600;
+            }
+            .home-backup-text012 {
+              font-size: 1.1rem;
             }
             .home-backup-section-separator {
               display: flex;
@@ -2859,8 +2777,15 @@ const HomeBackup = (props) => {
             }
           }
           @media (max-width: 991px) {
+            .home-backup-container03 {
+              height: 35%;
+            }
+            .home-backup-text001 {
+              height: auto;
+            }
             .home-backup-container05 {
               width: 70%;
+              height: 33%;
             }
             .home-backup-link07 {
               background-color: #c52726;
@@ -2904,17 +2829,39 @@ const HomeBackup = (props) => {
             .home-backup-container03 {
               width: 80%;
             }
+            .home-backup-text001 {
+              color: rgb(255, 255, 255);
+            }
             .home-backup-container05 {
               width: 80%;
             }
+            .home-backup-text006 {
+              color: rgb(255, 255, 255);
+            }
+            .home-backup-text007 {
+              font-size: 1.3rem;
+            }
+            .home-backup-text008 {
+              font-size: 1.3rem;
+            }
             .home-backup-mission-container {
               width: 80%;
+            }
+            .home-backup-text011 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 600;
             }
             .home-backup-objectives {
               height: 50vh;
             }
             .home-backup-container07 {
               width: 80%;
+            }
+            .home-backup-text022 {
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
             }
             .home-backup-container09 {
               width: 80%;
@@ -2993,11 +2940,15 @@ const HomeBackup = (props) => {
               justify-content: center;
             }
           }
-          @media (max-width: 479px) {
+          @media (max-width: 320px) {
             .home-backup-burger-menu {
               display: none;
               border-color: var(--dl-color-gray-black);
               border-width: 1px;
+            }
+            .home-backup-text {
+              font-size: 0.8rem;
+              text-transform: uppercase;
             }
             .home-backup-container03 {
               width: 95%;
@@ -3005,9 +2956,33 @@ const HomeBackup = (props) => {
             .home-backup-text001 {
               top: 0px;
               left: 0px;
+              color: rgb(255, 255, 255);
+              font-size: 1.4rem;
+              font-style: normal;
+              font-weight: 600;
+            }
+            .home-backup-text002 {
+              font-size: 1.4rem;
+            }
+            .home-backup-text003 {
+              font-size: 1.4rem;
+            }
+            .home-backup-text004 {
+              font-size: 1.1rem;
             }
             .home-backup-container05 {
               width: 95%;
+            }
+            .home-backup-text006 {
+              color: rgb(255, 255, 255);
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-backup-text007 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text008 {
+              font-size: 1.1rem;
             }
             .home-backup-link07 {
               color: rgb(255, 255, 255);
@@ -3017,9 +2992,26 @@ const HomeBackup = (props) => {
             .home-backup-mission-container {
               width: 95%;
             }
+            .home-backup-text010 {
+              font-size: 1.5rem;
+            }
+            .home-backup-text011 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text012 {
+              font-size: 1.1rem;
+              font-style: inherit;
+            }
+            .home-backup-text013 {
+              font-style: normal;
+            }
             .home-backup-objectives {
               width: 95%;
-              height: 55vh;
+              height: 0px;
+              min-height: 70vh;
+            }
+            .home-backup-text014 {
+              font-size: 1.5rem;
             }
             .home-backup-container07 {
               width: 100%;
@@ -3027,11 +3019,138 @@ const HomeBackup = (props) => {
             .home-backup-container08 {
               width: 95%;
             }
+            .home-backup-text015 {
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-backup-text016 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-backup-text022 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-backup-text023 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
             .home-backup-get-started {
               margin-bottom: var(--dl-space-space-fourunits);
             }
+            .home-backup-text027 {
+              font-size: 1.5rem;
+            }
             .home-backup-container09 {
               width: 95%;
+            }
+            .home-backup-text028 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-backup-text035 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text036 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-backup-text037 {
+              font-size: 1.5rem;
+            }
+            .home-backup-text041 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-backup-li06 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text045 {
+              font-size: 1.1rem;
+            }
+            .home-backup-li08 {
+              font-size: 1.1rem;
+            }
+            .home-backup-li09 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text054 {
+              font-size: 1.5rem;
+            }
+            .home-backup-text057 {
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-backup-text058 {
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-backup-text059 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-backup-li11 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text072 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-backup-text073 {
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-backup-text074 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text075 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text083 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text085 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text090 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text092 {
+              font-size: 1.5rem;
+            }
+            .home-backup-text095 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-backup-text096 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-backup-text097 {
+              font-size: 1.1rem;
+            }
+            .home-backup-text098 {
+              font-size: 1.1rem;
+              font-style: normal;
+              font-weight: 400;
+            }
+            .home-backup-link08 {
+              font-size: 1.1rem;
+            }
+            .home-backup-link09 {
+              font-style: normal;
+              text-align: center;
+              font-weight: 500;
             }
             .home-backup-features {
               padding-top: var(--dl-space-space-fiveunits);
@@ -3072,13 +3191,13 @@ const HomeBackup = (props) => {
               padding-top: var(--dl-space-space-fiveunits);
               padding-bottom: var(--dl-space-space-fiveunits);
             }
-            .home-backup-text114 {
+            .home-backup-text116 {
               text-align: center;
             }
             .home-backup-our-story {
               padding-top: var(--dl-space-space-fiveunits);
             }
-            .home-backup-text116 {
+            .home-backup-text118 {
               text-align: center;
             }
             .home-backup-video {
