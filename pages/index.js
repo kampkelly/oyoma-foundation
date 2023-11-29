@@ -78,11 +78,11 @@ const HomeBackup = (props) => {
               <div className="home-backup-container04"></div>
               <h1 className="home-backup-text001">
                 <span className="home-backup-text002">
-                  Welcome To The Ogheneyoma Adekpiyede Foundation.
+                  Welcome To The Ogheneyoma Adjekpiyede Foundation.
                 </span>
                 <br className="home-backup-text003"></br>
                 <span className="home-backup-text004">
-                  Empower Dreams, Enriching Features.
+                  Empowering Dreams, Enriching Futures.
                 </span>
                 <br></br>
               </h1>
@@ -479,10 +479,10 @@ const HomeBackup = (props) => {
               <li className="home-backup-li33 list-item">
                 <span className="home-backup-text103">Contact us at: </span>
                 <a
-                  href="mailto:ogheneyomaadjekpiyedefdn@gmail.com?subject=Information About Ogheneyoma Adjekpiyede Foundation"
+                  href="mailto:yomaadjekpiyedefoundation@gmail.com?subject=Information About Ogheneyoma Adjekpiyede Foundation"
                   className="home-backup-link09"
                 >
-                  ogheneyomaadjekpiyedefdn@gmail.com
+                  yomaadjekpiyedefoundation@gmail.com
                 </a>
               </li>
             </ul>
@@ -1234,6 +1234,11 @@ const HomeBackup = (props) => {
             position: absolute;
             align-self: flex-start;
             text-align: center;
+          }
+          .home-backup-text004 {
+            color: #eea137;
+            font-style: normal;
+            font-weight: 400;
           }
           .home-backup-container05 {
             width: 70%;
@@ -2980,13 +2985,19 @@ const HomeBackup = (props) => {
             .home-backup-container03 {
               width: 70%;
             }
+            .home-backup-text001 {
+              color: rgb(255, 255, 255);
+            }
+            .home-backup-text004 {
+              color: #eea137;
+              font-style: normal;
+              font-weight: 400;
+            }
             .home-backup-container05 {
               width: 70%;
             }
             .home-backup-text011 {
               font-size: 1.1rem;
-              font-style: normal;
-              font-weight: 600;
             }
             .home-backup-text012 {
               font-size: 1.1rem;
