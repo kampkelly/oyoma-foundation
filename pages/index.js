@@ -1187,7 +1187,7 @@ const HomeBackup = (props) => {
             width: 100%;
             height: 100vh;
             display: flex;
-            max-height: 100vh;
+            max-height: 150vh;
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
@@ -1277,10 +1277,11 @@ const HomeBackup = (props) => {
           }
           .home-backup-mission-container {
             width: 70%;
-            height: 40%;
+            height: 0px;
             display: flex;
             z-index: 100;
             align-self: center;
+            min-height: 40%;
             align-items: center;
             flex-direction: column;
           }
@@ -1319,13 +1320,14 @@ const HomeBackup = (props) => {
           }
           .home-backup-objectives {
             width: 100%;
-            height: 40vh;
+            height: auto;
             display: flex;
             font-size: 1.1rem;
-            max-height: 60vh;
+            max-height: 100vh;
             min-height: min-content;
             align-items: center;
             padding-top: 0px;
+            margin-bottom: 4em;
             flex-direction: column;
           }
           .home-backup-text014 {
@@ -1335,13 +1337,13 @@ const HomeBackup = (props) => {
           .home-backup-container07 {
             flex: 0 0 auto;
             width: 70%;
-            height: 90%;
+            height: 100%;
             display: flex;
             align-items: flex-start;
           }
           .home-backup-container08 {
             width: 976px;
-            height: 43px;
+            height: auto;
             display: flex;
             position: relative;
             flex-direction: column;
@@ -1390,12 +1392,14 @@ const HomeBackup = (props) => {
           }
           .home-backup-why-we-were-founded {
             width: 100%;
-            height: 40vh;
+            height: auto;
             display: flex;
             font-size: 1.1rem;
-            max-height: 60vh;
+            max-height: 100vh;
+            min-height: min-content;
             align-items: center;
             padding-top: 0px;
+            margin-bottom: 4em;
             flex-direction: column;
           }
           .home-backup-text024 {
@@ -1426,12 +1430,14 @@ const HomeBackup = (props) => {
           }
           .home-backup-join-us-in-this-journey {
             width: 100%;
-            height: 20vh;
+            height: auto;
             display: flex;
             font-size: 1.1rem;
-            max-height: 60vh;
+            max-height: 100vh;
+            min-height: min-content;
             align-items: center;
             padding-top: 0px;
+            margin-bottom: 4em;
             flex-direction: column;
           }
           .home-backup-text030 {
@@ -1469,6 +1475,7 @@ const HomeBackup = (props) => {
             height: auto;
             display: flex;
             font-size: 1.1rem;
+            min-height: min-content;
             align-items: center;
             margin-bottom: var(--dl-space-space-tenunits);
             flex-direction: column;
@@ -2977,6 +2984,10 @@ const HomeBackup = (props) => {
             }
           }
           @media (max-width: 1200px) {
+            .home-backup-section-1-container {
+              max-height: 150vh;
+              min-height: min-content;
+            }
             .home-backup-container03 {
               width: 70%;
             }
@@ -3009,20 +3020,34 @@ const HomeBackup = (props) => {
               background-color: #861111;
             }
             .home-backup-objectives {
-              height: 45vh;
+              height: auto;
+              max-height: 100vh;
+              margin-bottom: 2em;
+            }
+            .home-backup-container07 {
+              height: 100%;
+            }
+            .home-backup-container08 {
+              height: auto;
             }
             .home-backup-section-separator1 {
               display: flex;
             }
             .home-backup-why-we-were-founded {
-              height: 45vh;
+              height: auto;
+              max-height: 100vh;
+              min-height: min-content;
+              margin-bottom: 2em;
             }
             .home-backup-section-separator2 {
               display: flex;
             }
             .home-backup-join-us-in-this-journey {
               height: auto;
-              min-height: 25vh;
+              max-height: 100vh;
+              min-height: min-content;
+              margin-bottom: 2em;
+              padding-bottom: 0px;
             }
             .home-backup-eligibility-criteria {
               border-color: var(--dl-color-gray-black);
@@ -3231,7 +3256,7 @@ const HomeBackup = (props) => {
             .home-backup-objectives {
               width: 100%;
               height: auto;
-              max-height: 70vh;
+              max-height: 100vh;
               min-height: min-content;
               padding-bottom: 2em;
             }
@@ -3274,7 +3299,7 @@ const HomeBackup = (props) => {
             }
             .home-backup-why-we-were-founded {
               height: auto;
-              max-height: 90vh;
+              max-height: 100vh;
               min-height: min-content;
               margin-bottom: 2em;
               padding-bottom: 0px;
@@ -3570,7 +3595,7 @@ const HomeBackup = (props) => {
             .home-backup-objectives {
               width: 95%;
               height: auto;
-              max-height: 80vh;
+              max-height: 100vh;
               min-height: min-content;
             }
             .home-backup-text014 {
@@ -3623,7 +3648,7 @@ const HomeBackup = (props) => {
               width: 95%;
               height: auto;
               max-height: 100vh;
-              min-height: auto;
+              min-height: min-content;
               margin-bottom: 2em;
             }
             .home-backup-text030 {
@@ -3640,7 +3665,7 @@ const HomeBackup = (props) => {
               font-size: 0.8rem;
             }
             .home-backup-eligibility-criteria {
-              margin-bottom: var(--dl-space-space-fourunits);
+              margin-bottom: var(--dl-space-space-fiveunits);
             }
             .home-backup-text035 {
               font-size: 1.5rem;
