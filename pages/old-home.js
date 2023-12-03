@@ -7,8 +7,23 @@ const OldHome = (props) => {
     <>
       <div className="old-home-container">
         <Head>
-          <title>Old-Home - Landing Page</title>
-          <meta property="og:title" content="Old-Home - Landing Page" />
+          <title>Old-Home - Ogheneyoma Adjekpiyede Foundation</title>
+          <meta
+            name="description"
+            content="Welcome To The Ogheneyoma Adjekpiyede Foundation.\nEmpowering Dreams, Enriching Futures."
+          />
+          <meta
+            property="og:title"
+            content="Old-Home - Ogheneyoma Adjekpiyede Foundation"
+          />
+          <meta
+            property="og:description"
+            content="Welcome To The Ogheneyoma Adjekpiyede Foundation.\nEmpowering Dreams, Enriching Futures."
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3673678f-6032-4b03-8afd-c6b378d4d5ac/2fe9fceb-0411-4bb8-9a95-67f697e449e4?org_if_sml=1&amp;force_format=original"
+          />
         </Head>
         <div data-role="Header" className="old-home-navbar-container">
           <div className="old-home-navbar">
