@@ -226,7 +226,7 @@ const HomeBackup = (props) => {
               If you&apos;re an indigene of Agadama-Uwheru, Delta State,
               Nigeria, and are currently enrolled in second year in a recognized
               Nigerian university, we invite you to check our criteria below and
-              apply for The Ogheneyoma Adjekpiyede Scholarship 2023.
+              apply for The Ogheneyoma Adjekpiyede Scholarship 2024.
             </span>
           </div>
         </div>
@@ -298,7 +298,7 @@ const HomeBackup = (props) => {
               </li>
               <li className="list-item home-backup-li09">
                 <span className="home-backup-text054">
-                  Must have gained admission during the 2022/2023 academic
+                  Must have gained admission during the 2023/2024 academic
                   session and in second year pursuing a first degree programme.
                 </span>
               </li>
@@ -348,7 +348,7 @@ const HomeBackup = (props) => {
                     />
                   </span>
                   <span className="home-backup-text065">
-                    2023 University Scholarship Scheme
+                    2024 University Scholarship Scheme
                   </span>
                   <span className="home-backup-text066">:</span>
                 </span>
@@ -434,7 +434,7 @@ const HomeBackup = (props) => {
                   </span>
                   <br></br>
                   <span>
-                    ogheneyomaadjekpiyedefdn@gmail.com with the subject 2023
+                    ogheneyomaadjekpiyedefdn@gmail.com with the subject 2024
                     University Scholarship
                   </span>
                   <br></br>
@@ -491,7 +491,7 @@ const HomeBackup = (props) => {
               <br></br>
             </h3>
             <span className="home-backup-text101">
-              <span>Application Deadline: January 19th, 2024</span>
+              <span>Application Deadline: August 29th, 2024</span>
               <span>
                 .
                 <span
@@ -501,7 +501,7 @@ const HomeBackup = (props) => {
                 />
               </span>
               <span className="home-backup-text104">
-                Applications for the 2023 Scholarship are now closed.
+                Applications for the 2024 Scholarship are now closed.
               </span>
             </span>
             <span className="home-backup-text105">For more information:</span>
@@ -517,7 +517,8 @@ const HomeBackup = (props) => {
               </li>
             </ul>
             <a
-              href="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/3673678f-6032-4b03-8afd-c6b378d4d5ac/6ad16f01-1436-4eb0-af56-d24bea362f27"
+              // href="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/3673678f-6032-4b03-8afd-c6b378d4d5ac/6ad16f01-1436-4eb0-af56-d24bea362f27"
+              href="/application-form.pdf"
               target="_blank"
               rel="noreferrer noopener"
               className="home-backup-download-form-button button"
@@ -1052,7 +1053,7 @@ const HomeBackup = (props) => {
               <svg viewBox="0 0 1024 1024" className="home-backup-icon66">
                 <path d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"></path>
               </svg>
-              <span className="home-backup-link18 Anchor">Copyright, 2023</span>
+              <span className="home-backup-link18 Anchor">Copyright, 2024</span>
             </div>
           </div>
         </div>
@@ -3026,6 +3027,7 @@ const HomeBackup = (props) => {
               font-weight: 400;
             }
             .home-backup-text104 {
+              display: none;
               color: #c52726;
               font-size: 15px;
             }
@@ -3120,6 +3122,7 @@ const HomeBackup = (props) => {
               font-weight: 600;
             }
             .home-backup-text104 {
+              display: none;
               font-size: 15px;
             }
             .home-backup-text105 {
