@@ -10,3 +10,4 @@ Run `npm run dev`
 
 ### Deployment:
 Push your commits to the `teleporthq-main` branch
+Note: Please try to do one commit per feature/change to keep commit history quite clean
