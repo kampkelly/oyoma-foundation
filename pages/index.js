@@ -223,7 +223,7 @@ const HomeBackup = (props) => {
           <h1 className="home-backup-text032">Join Us in this Journey</h1>
           <div className="home-backup-container10">
             <span className="home-backup-text033">
-              If you&apos;re an indigene of Agadama-Uwheru, Delta State,
+              If you&apos;re an indigene of Uwheru, Delta State,
               Nigeria, and are currently enrolled in second year in a recognized
               Nigerian university, we invite you to check our criteria below and
               apply for The Ogheneyoma Adjekpiyede Scholarship 2025.
@@ -270,7 +270,7 @@ const HomeBackup = (props) => {
             <ul className="home-backup-eligibility-criteria-list list">
               <li className="home-backup-li05 list-item">
                 <span className="home-backup-text048">
-                  Be indigenes Uwheru Town, Ughelli-North LGA
+                  Be indigenes of Uwheru Town, Ughelli-North LGA
                   of Delta State.
                 </span>
               </li>
@@ -291,7 +291,7 @@ const HomeBackup = (props) => {
               </li>
               <li className="list-item home-backup-li08">
                 <span className="home-backup-text053">
-                  Currently be enrolled in an accredited public federal/state
+                  Currently be enrolled in second year in an accredited public federal/state
                   university in Nigeria (students in Polytechnic are not
                   eligible).
                 </span>
@@ -485,7 +485,7 @@ const HomeBackup = (props) => {
               <br></br>
             </h3>
             <span className="home-backup-text101">
-              <span>Application Deadline: August 29th, 2025</span>
+              <span>Application Deadline: August 31st, 2025</span>
               <span>
                 .
                 <span
