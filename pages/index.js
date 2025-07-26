@@ -285,7 +285,7 @@ const HomeBackup = (props) => {
               </li>
               <li className="list-item">
                 <span className="home-backup-text052">
-                  Attained a minimum of 5 credits in WAEC/SSCE/NECO, including
+                  Have attained a minimum of 5 credits in WAEC/NECO, including
                   English Language and Mathematics in no more than 2 sittings.
                 </span>
               </li>
