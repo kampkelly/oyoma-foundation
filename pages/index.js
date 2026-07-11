@@ -226,7 +226,7 @@ const HomeBackup = (props) => {
               If you&apos;re an indigene of Uwheru, Delta State,
               Nigeria, and are currently enrolled in second year in a recognized
               Nigerian university, we invite you to check our criteria below and
-              apply for The Ogheneyoma Adjekpiyede Scholarship 2025.
+              apply for The Ogheneyoma Adjekpiyede Scholarship 2026.
             </span>
           </div>
         </div>
@@ -277,8 +277,9 @@ const HomeBackup = (props) => {
               <li className="home-backup-li06 list-item">
                 <span className="home-backup-text049">
                   <span>
-                    Have completed secondary school in Uwheru, Ughelli-North LGA
-                    of Delta State.
+                    Have completed secondary school in Ughelli-North LGA
+                    of Delta State. Applicants who completed secondary school in
+                    Agadama community would have an added advantage.
                   </span>
                   <br></br>
                 </span>
@@ -315,8 +316,8 @@ const HomeBackup = (props) => {
               <li className="list-item home-backup-li11">
                 <span className="home-backup-text061">
                   <span>
-                    Send scanned original copies of the following documents in
-                    one email to
+                    Send scanned original copies of the following documents in{' '}
+                    <strong>one</strong> email to
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -342,7 +343,7 @@ const HomeBackup = (props) => {
                     />
                   </span>
                   <span className="home-backup-text065">
-                    2025 University Scholarship Scheme
+                    2026 University Scholarship Scheme
                   </span>
                   <span className="home-backup-text066">:</span>
                 </span>
@@ -428,7 +429,7 @@ const HomeBackup = (props) => {
                   </span>
                   <br></br>
                   <span>
-                    ogheneyomaadjekpiyedefdn@gmail.com with the subject 20252
+                    ogheneyomaadjekpiyedefdn@gmail.com with the subject 2026
                     University Scholarship
                   </span>
                   <br></br>
@@ -485,7 +486,7 @@ const HomeBackup = (props) => {
               <br></br>
             </h3>
             <span className="home-backup-text101">
-              <span>Application Deadline: August 31st, 2025</span>
+              <span>Application Deadline: August 14th, 2026</span>
               <span>
                 .
                 <span
@@ -495,7 +496,7 @@ const HomeBackup = (props) => {
                 />
               </span>
               <span className="home-backup-text104">
-                Applications for the 2025 Scholarship are now closed.
+                Applications for the 2026 Scholarship are now closed.
               </span>
             </span>
             <span className="home-backup-text105">For more information:</span>
@@ -1047,7 +1048,7 @@ const HomeBackup = (props) => {
               <svg viewBox="0 0 1024 1024" className="home-backup-icon66">
                 <path d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"></path>
               </svg>
-              <span className="home-backup-link18 Anchor">Copyright, 2025</span>
+              <span className="home-backup-link18 Anchor">Copyright, 2026</span>
             </div>
           </div>
         </div>
